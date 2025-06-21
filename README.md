@@ -1,2 +1,0 @@
-# Job-Finder
-NLP project
