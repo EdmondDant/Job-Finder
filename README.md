@@ -40,7 +40,7 @@ https://job-finder-group.streamlit.app/
 
 ## How to Clone the Project
 
-To download and run this project locally, use the following command:
+To download and run this project locally on terminal, use the following command:
 
 ```bash
 git clone https://github.com/EdmondDant/Job-Finder
