@@ -36,6 +36,8 @@ https://job-finder-group.streamlit.app/
 ```
 ---
 
+## Or
+
 ## How to Clone the Project
 
 To download and run this project locally, use the following command:
