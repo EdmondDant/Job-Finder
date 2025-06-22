@@ -44,15 +44,16 @@ cd Job-Finder
 
 ---
 
+## 🔧 Setup
 
-## Install Requirements
 
-Before running the app, install the required Python dependencies:
+
+## 🔧 Setup
 
 ```bash
-pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
-
-
+python3 -m venv env
+source env/bin/activate   # On Windows: env\Scripts\activate
+pip install -r requirements.txt
 
 ```
 ---
