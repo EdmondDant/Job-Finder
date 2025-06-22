@@ -45,7 +45,7 @@ cd Job-Finder
 ---
 
 
-## 📦 Install Requirements
+## Install Requirements
 
 Before running the app, install the required Python dependencies:
 
@@ -54,7 +54,8 @@ pip install -r requirements.txt
 
 ```
 ---
+## Unzip download models and uncompressed modesl and vectors and 
 
 
 
-
+---
