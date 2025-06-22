@@ -55,7 +55,7 @@ pip install --upgrade pip
 ## Setup-- create a new env to ensure everything runs smoothly, upgrade pip, and download requirements
 
 ```bash
-python3.10 -m venv env
+python3.12 -m venv env
 source env/bin/activate
 ```
 
