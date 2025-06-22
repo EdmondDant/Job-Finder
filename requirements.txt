@@ -11,11 +11,13 @@ faiss-cpu==1.8.0
 kagglehub==0.3.12
 gdown>=4.7.1
 
-# LangChain and Extensions (compatible with Pydantic v1)
+# LangChain and compatible versions (Pydantic v1)
 langchain==0.0.330
 langchain-core==0.0.9
-# If needed: langchain-community==0.0.15
+# Optional, only if used in code:
+langchain-community==0.0.15
 
+# NLP & HuggingFace utils
 datasets==3.6.0
 huggingface-hub==0.24.0
 
@@ -23,4 +25,5 @@ huggingface-hub==0.24.0
 pydantic==1.10.13
 regex==2023.12.25
 python-dotenv==1.0.1
+
 
