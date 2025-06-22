@@ -50,7 +50,8 @@ cd Job-Finder
 Before running the app, install the required Python dependencies:
 
 ```bash
-pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+
 
 
 ```
