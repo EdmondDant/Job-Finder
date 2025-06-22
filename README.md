@@ -63,15 +63,17 @@ gdown --folder https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAz
 
 ```
 ---
-##unzip vectorstore.zip for agent1 to run smoothly
+## unzip vectorstore.zip for agent1 to run smoothly
 ```bash
 
-unzip career_vectorstore.zip
+unzip career_vectorstore.zip -d career_vectorstore
 ```
 
 ---
 
----
+
+
+
 ```bash
 streamlit run app.py
 
