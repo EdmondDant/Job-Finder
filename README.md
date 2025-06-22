@@ -64,3 +64,9 @@ gdown --folder https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAz
 ```
 
 ---
+
+---
+```bash
+streamlit run app.py
+
+---
