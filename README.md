@@ -60,9 +60,10 @@ pip install -r requirements.txt
 ## Unzip download models and uncompressed modesl and vectors and  
 
 ```bash
-gdown  https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6
+gdown --fuzzy "https://drive.google.com/file/d/1o6q5H3vk5Xc2jKbQUStYeC92dZWcB5rF/view?usp=sharing"
 
-gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
+
+gdown --fuzzy https://drive.google.com/file/d/1ra6eQFKxHuuf5ztPBHX9-Kpa4zCFrIUS/view?usp=sharing
 
 
 gdown https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
@@ -85,7 +86,7 @@ unzip  finetuned-flan-t5-coverletter -d finetuned-flan-t5-coverletter
 
 
 
-
+## Run the app via streamlit
 ```bash
 streamlit run app.py
 
