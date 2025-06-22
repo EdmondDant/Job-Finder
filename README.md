@@ -60,9 +60,15 @@ pip install -r requirements.txt
 
 ```
 ---
+## Upgrade pip to ensure it runs smoothly
+```bash
+pip install --upgrade pip
+
+```
+---
 
 ## Upgrade pip to ensure it runs smoothly
-```
+```bash
 python3 -m pip install --upgrade pip
 ```
 ---
