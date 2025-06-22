@@ -75,46 +75,6 @@ pip install --no-cache-dir -r requirements.txt
 ```
 ---
 
-##  Download  uncompressed models and vectors   
-
-```bash
-gdown --fuzzy "https://drive.google.com/file/d/1KP-0nVrU6d6CbMhOi1Zuh7y6487WtW2b/view?usp=drive_link"
-
-
-gdown --fuzzy "https://drive.google.com/file/d/1jLzeIuu-eHzbXaTGtlxfU-SheDMO76Af/view?usp=drive_link"
-
-
-gdown --fuzzy "https://drive.google.com/file/d/1lEbTYB2lLseGn14du76M2GGFqNpIbVu9/view?usp=drive_link"
-
-
-
-
-```
-## if the files can't be downloaded due to overuse, use these links:
-
-```bash
-gdown --fuzzy https://drive.google.com/file/d/1491K9dOiSEkOLK4FMOkq-NDyy9DWdld8/view?usp=sharing
-
-gdown --fuzzy https://drive.google.com/file/d/1veRTgqUpKRO3dG188v8PSThyUdbBF9aH/view?usp=sharing
-
-gdown --fuzzy https://drive.google.com/file/d/1sPDHApjYYRjLtsZEcw0M5FM_JO2_CPSn/view?usp=sharing
-
-
-```
----
-## unzip all models
-```bash
-
-unzip career_vectorstore.zip -d career_vectorstore
-unzip career_model.zip -d career_model
-unzip  finetuned-flan-t5-coverletter.zip 
-
-```
-
-
----
-
-
 
 ## Run the app via streamlit
 ```bash

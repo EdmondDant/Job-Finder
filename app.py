@@ -16,6 +16,7 @@ import kagglehub
 import faiss
 from sentence_transformers import SentenceTransformer
 import numpy as np
+from huggingface_hub import hf_hub_download
 
 # Configure page
 st.set_page_config(
@@ -314,13 +315,21 @@ def extract_skills_from_resume(uploaded_file):
 def load_career_model_and_vectorstore():
     """Load the fine-tuned career classification model and vectorstore"""
     try:
+
+        # Load FAISS index locally (bypassing .pkl)
         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         vectorstore = FAISS.load_local("career_vectorstore", embeddings, allow_dangerous_deserialization=True)
         retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-        
-        pipe = pipeline("text2text-generation", model="career_model", max_new_tokens=50, temperature=0.0, device=-1)
+
+        # Load model from Hugging Face
+        model_path = "diegowlp/career-model"
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+        model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
+
+        pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer, max_new_tokens=50, temperature=0.0)
         llm = HuggingFacePipeline(pipeline=pipe)
-        
+
+        # Prompt setup
         prompt_template = PromptTemplate(
             input_variables=["user_input", "retrieved_examples"],
             template="""
@@ -332,13 +341,15 @@ Now classify this:
 Respond only in this format:
 sector: <name of best-fit sector>"""
         )
-        
+
         chain = LLMChain(llm=llm, prompt=prompt_template)
         return retriever, chain
+
     except Exception as e:
         st.error(f"Error loading career classification model: {str(e)}")
-        st.info("Please ensure the career model and vectorstore are available at './career_model' and './career_vectorstore'")
+        st.info("Please ensure the career model and vectorstore are available on Hugging Face under 'diegowlp/career-model' and 'diegowlp/career-vectorstore'")
         return None, None
+
 
 def make_examples(docs):
     """Format retrieved documents as examples for the prompt"""
@@ -375,26 +386,30 @@ def classify_career_sector(user_interests, retriever, chain):
         st.error(f"Error in sector classification: {str(e)}")
         return "Technology"  # Default fallback
 
+@st.cache_resource
 def load_cover_letter_model():
-    """Load the fine-tuned model for cover letter generation"""
+    """Load the fine-tuned model for cover letter generation from Hugging Face"""
     try:
-        model_path = "./finetuned-flan-t5-coverletter"
+        # Load from Hugging Face model hub
+        model_path = "diegowlp/jobfinder-coverletter-model"
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
-        
+
         # Set device
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model = model.to(device)
-        
+
         # Add padding token if needed
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
-            
+
         return tokenizer, model, device
+
     except Exception as e:
         st.error(f"Error loading cover letter model: {str(e)}")
-        st.info("Please ensure the model is available at './finetuned-flan-t5-coverletter'")
+        st.info("Please ensure the model exists at 'diegowlp/jobfinder-coverletter-model' on Hugging Face.")
         return None, None, None
+
 
 def generate_cover_letter(tokenizer, model, device, name, company, job_position,
                          skillsets, qualifications, past_experience, current_experience):
