@@ -40,11 +40,6 @@ git clone https://github.com/EdmondDant/Job-Finder
 cd Job-Finder 
 ```
 
-
-
-
-
-
 ---
 
 ---
@@ -60,7 +55,7 @@ pip install --upgrade pip
 ## Setup-- create a new env to ensure everything runs smoothly, upgrade pip, and download requirements
 
 ```bash
-python3 -m venv env
+python3.10 -m venv env 
 source env/bin/activate   # On Windows: env\Scripts\activate
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt
