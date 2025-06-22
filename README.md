@@ -61,6 +61,7 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 ```bash
 gdown  https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6
 gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
+gdown https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
 
 
 ```
@@ -70,6 +71,8 @@ gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
 
 unzip career_vectorstore.zip -d career_vectorstore
 unzip career_model.zip -d career_model
+unzip  finetuned-flan-t5-coverletter-20250622T115950Z-1-001.zip 
+
 ```
 
 
