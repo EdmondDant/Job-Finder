@@ -66,6 +66,7 @@ gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
 
 gdown https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
 
+gdown --fuzzy "https://drive.google.com/file/d/1267rLcZ7m3s3u04_leAi2G1x4xml9FsW/view?usp=sharing"
 
 ```
 ---
