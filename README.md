@@ -28,7 +28,7 @@ The application is comprised of three agents that help the user:
 
 
 --
-## Try the app through this link:
+## Try the app through this link and if it says it is too big to do by memory then reboot the app by clicking on the ... on the right and reload the page:
 ```bash
 
 https://job-finder-group.streamlit.app/
