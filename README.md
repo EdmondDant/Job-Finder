@@ -27,8 +27,13 @@ The application is comprised of three agents that help the user:
 - LangChain (optional, if you're using it)
 
 
+--
+## Try the app through this link:
+```bash
 
+https://job-finder-group.streamlit.app/
 
+```
 ---
 
 ## How to Clone the Project
@@ -83,3 +88,4 @@ streamlit run app.py
 ```
 
 ---
+
