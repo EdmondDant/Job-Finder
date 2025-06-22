@@ -11,15 +11,10 @@ faiss-cpu==1.8.0
 kagglehub==0.3.12
 gdown>=4.7.1
 
-# LangChain (guaranteed compatible versions)
-langchain-core==0.1.48
-
-langchain-core==0.1.48
-langchain-community==0.0.36
-
-# Compatibility
-pydantic==2.7.1
-pydantic-settings==2.2.1
+# LangChain stack (for compatibility with saved model/vectorstore)
+langchain==0.0.330
+langchain-core==0.0.9
+pydantic==1.10.13
 
 # Other
 datasets==3.6.0
