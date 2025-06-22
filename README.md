@@ -56,6 +56,6 @@ pip install -r requirements.txt
 ---
 ## Unzip download models and uncompressed modesl and vectors and 
 
-
+gdown https://drive.google.com/drive/folders1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6?usp=sharing
 
 ---
