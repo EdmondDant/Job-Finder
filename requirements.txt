@@ -12,9 +12,9 @@ kagglehub==0.3.12
 gdown>=4.7.1
 
 # LangChain (modern setup)
-langchain==0.2.1
-langchain-core==0.2.0
-langchain-community==0.0.41
+langchain ==0.2.1
+langchain-core
+langchain-community
 
 # Compatibility
 pydantic==2.7.1
