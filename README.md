@@ -87,7 +87,7 @@ gdown --fuzzy "https://drive.google.com/file/d/1ra6eQFKxHuuf5ztPBHX9-Kpa4zCFrIUS
 
 gdown --fuzzy "https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing"
 
-gdown --fuzzy "https://drive.google.com/file/d/1267rLcZ7m3s3u04_leAi2G1x4xml9FsW/view?usp=sharing"
+gdown --fuzzy "https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6?usp=drive_link"
 
 ```
 ---
