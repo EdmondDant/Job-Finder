@@ -79,15 +79,14 @@ pip install --no-cache-dir -r requirements.txt
 ## Unzip download models and uncompressed modesl and vectors and  
 
 ```bash
-gdown --fuzzy "https://drive.google.com/file/d/1o6q5H3vk5Xc2jKbQUStYeC92dZWcB5rF/view?usp=sharing"
+gdown --fuzzy "https://drive.google.com/file/d/1KP-0nVrU6d6CbMhOi1Zuh7y6487WtW2b/view?usp=drive_link"
 
 
-gdown --fuzzy "https://drive.google.com/file/d/1ra6eQFKxHuuf5ztPBHX9-Kpa4zCFrIUS/view?usp=sharing"
+gdown --fuzzy "https://drive.google.com/file/d/1jLzeIuu-eHzbXaTGtlxfU-SheDMO76Af/view?usp=drive_link"
 
 
-gdown --fuzzy "https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing"
+gdown --fuzzy "https://drive.google.com/file/d/1lEbTYB2lLseGn14du76M2GGFqNpIbVu9/view?usp=drive_link"
 
-gdown --fuzzy "https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6?usp=drive_link"
 
 ```
 ---
