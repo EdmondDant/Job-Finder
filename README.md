@@ -58,6 +58,8 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 ---
 ## Unzip download models and uncompressed modesl and vectors and 
 
+```bash
 gdown https://drive.google.com/drive/folders1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6?usp=sharing
+```
 
 ---
