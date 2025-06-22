@@ -47,18 +47,6 @@ cd Job-Finder
 
 ---
 
-
-
-
-
-## Setup-- create a new env to ensure everything runs smoothly
-
-```bash
-python3 -m venv env
-source env/bin/activate   # On Windows: env\Scripts\activate
-pip install -r requirements.txt
-
-```
 ---
 ## Upgrade pip to ensure it runs smoothly
 ```bash
@@ -67,9 +55,16 @@ pip install --upgrade pip
 ```
 ---
 
-## Upgrade pip to ensure it runs smoothly
+
+
+## Setup-- create a new env to ensure everything runs smoothly, upgrade pip, and download requirements
+
 ```bash
+python3 -m venv env
+source env/bin/activate   # On Windows: env\Scripts\activate
 python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+
 ```
 ---
 ## Unzip download models and uncompressed modesl and vectors and  
