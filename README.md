@@ -55,13 +55,23 @@ pip install --upgrade pip
 ## Setup-- create a new env to ensure everything runs smoothly, upgrade pip, and download requirements
 
 ```bash
-python3.10 -m venv env 
-source env/bin/activate   # On Windows: env\Scripts\activate
-python3 -m pip install --upgrade pip
-pip install -r requirements.txt
+python3.10 -m venv env
+source env/bin/activate
+```
+
+
+
+
+---
+```bash 
+
+# Step 2: Upgrade pip and install all dependencies
+python -m pip install --upgrade pip
+pip install --no-cache-dir -r requirements.txt
 
 ```
 ---
+
 ## Unzip download models and uncompressed modesl and vectors and  
 
 ```bash
