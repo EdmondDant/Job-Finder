@@ -57,14 +57,16 @@ source env/bin/activate
 
 
 ---
+## upgrade pip install
 ```bash 
 
 # Step 2: Upgrade pip and install all dependencies
+
 python -m pip install --upgrade pip
 
 ```
 ---
-## Upgrade pip
+## install requirements
 ```bash 
 
 
