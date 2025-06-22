@@ -60,7 +60,10 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 ```bash
 gdown  https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6
+
 gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
+
+
 gdown https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
 
 
