@@ -62,6 +62,12 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 gdown --folder https://drive.google.com/drive/folders/1MRkFm2rX-YgVCUe21JRXT7aAzJiCcLz6
 
 ```
+---
+##unzip vectorstore.zip for agent1 to run smoothly
+```bash
+
+unzip career_vectorstore.zip
+```
 
 ---
 
