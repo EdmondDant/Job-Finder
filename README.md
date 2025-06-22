@@ -90,7 +90,7 @@ gdown --fuzzy "https://drive.google.com/file/d/1lEbTYB2lLseGn14du76M2GGFqNpIbVu9
 
 
 ```
-## if the files can't be downlaoded due to overuse, use these links:
+## if the files can't be downloaded due to overuse, use these links:
 
 ```bash
 gdown --fuzzy https://drive.google.com/file/d/1491K9dOiSEkOLK4FMOkq-NDyy9DWdld8/view?usp=sharing
@@ -102,7 +102,7 @@ gdown --fuzzy https://drive.google.com/file/d/1sPDHApjYYRjLtsZEcw0M5FM_JO2_CPSn/
 
 ```
 ---
-## unzip vectorstore.zip for agent1 to run smoothly
+## unzip all models
 ```bash
 
 unzip career_vectorstore.zip -d career_vectorstore
