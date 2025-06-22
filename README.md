@@ -65,7 +65,7 @@ python -m pip install --upgrade pip
 
 ```
 ---
-## install requirements
+## install requirements will give an error but it isn't pivotal; ignored it
 ```bash 
 
 
@@ -75,7 +75,7 @@ pip install --no-cache-dir -r requirements.txt
 ```
 ---
 
-## Unzip download models and uncompressed modesl and vectors and  
+##  Download  uncompressed models and vectors   
 
 ```bash
 gdown --fuzzy "https://drive.google.com/file/d/1KP-0nVrU6d6CbMhOi1Zuh7y6487WtW2b/view?usp=drive_link"
