@@ -87,6 +87,19 @@ gdown --fuzzy "https://drive.google.com/file/d/1jLzeIuu-eHzbXaTGtlxfU-SheDMO76Af
 gdown --fuzzy "https://drive.google.com/file/d/1lEbTYB2lLseGn14du76M2GGFqNpIbVu9/view?usp=drive_link"
 
 
+
+
+```
+## if the files can't be downlaoded due to overuse, use these links:
+
+```bash
+gdown --fuzzy https://drive.google.com/file/d/1491K9dOiSEkOLK4FMOkq-NDyy9DWdld8/view?usp=sharing
+
+gdown --fuzzy https://drive.google.com/file/d/1veRTgqUpKRO3dG188v8PSThyUdbBF9aH/view?usp=sharing
+
+gdown --fuzzy https://drive.google.com/file/d/1sPDHApjYYRjLtsZEcw0M5FM_JO2_CPSn/view?usp=sharing
+
+
 ```
 ---
 ## unzip vectorstore.zip for agent1 to run smoothly
