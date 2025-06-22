@@ -68,7 +68,9 @@ gdown https://drive.google.com/uc?id=1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a
 ```bash
 
 unzip career_vectorstore.zip -d career_vectorstore
+unzip career model -d career_model
 ```
+
 
 ---
 
