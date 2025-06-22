@@ -44,11 +44,11 @@ cd Job-Finder
 
 ---
 
-## 🔧 Setup
 
 
 
-## 🔧 Setup
+
+## Setup-- create a new env to ensure everything runs smoothly
 
 ```bash
 python3 -m venv env
