@@ -36,7 +36,7 @@ https://job-finder-group.streamlit.app/
 ```
 ---
 
-## Or
+## Or through these steps:
 
 ## How to Clone the Project
 
