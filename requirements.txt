@@ -12,7 +12,8 @@ kagglehub==0.3.12
 gdown>=4.7.1
 
 # LangChain (guaranteed compatible versions)
-langchain==0.1.17
+langchain-core==0.1.48
+
 langchain-core==0.1.48
 langchain-community==0.0.36
 
