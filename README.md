@@ -26,6 +26,9 @@ The application is comprised of three agents that help the user:
 - Hugging Face Transformers (LLM + Embeddings)
 - LangChain (optional, if you're using it)
 
+
+
+
 ---
 
 ## How to Clone the Project
@@ -57,6 +60,12 @@ pip install -r requirements.txt
 
 ```
 ---
+
+## Upgrade pip to ensure it runs smoothly
+```
+python3 -m pip install --upgrade pip
+```
+---
 ## Unzip download models and uncompressed modesl and vectors and  
 
 ```bash
@@ -66,7 +75,7 @@ gdown --fuzzy "https://drive.google.com/file/d/1o6q5H3vk5Xc2jKbQUStYeC92dZWcB5rF
 gdown --fuzzy https://drive.google.com/file/d/1ra6eQFKxHuuf5ztPBHX9-Kpa4zCFrIUS/view?usp=sharing
 
 
-gdown https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
+gdown --fuzzy https://drive.google.com/file/d/1jkx97AFLbUc80QDbqpPQ_RMBYFXDoA9a/view?usp=sharing
 
 gdown --fuzzy "https://drive.google.com/file/d/1267rLcZ7m3s3u04_leAi2G1x4xml9FsW/view?usp=sharing"
 
