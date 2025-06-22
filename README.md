@@ -61,7 +61,6 @@ source env/bin/activate
 
 # Step 2: Upgrade pip and install all dependencies
 python -m pip install --upgrade pip
-pip install --no-cache-dir -r requirements.txt
 
 ```
 ---
