@@ -16,7 +16,8 @@ gdown>=4.7.1
 langchain==0.2.1
 langchain-community==0.2.1
 langchain-core==0.2.0
-huggingface-hub==0.23.0
+datasets==3.6.0
+huggingface-hub>=0.24.0
 
 # Optional: For compatibility and system utilities
 regex==2023.12.25
