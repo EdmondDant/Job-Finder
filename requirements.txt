@@ -11,7 +11,7 @@ faiss-cpu==1.8.0
 kagglehub==0.3.12
 gdown>=4.7.1
 
-# LangChain (fully compatible)
+# LangChain (guaranteed compatible versions)
 langchain==0.1.17
 langchain-core==0.1.48
 langchain-community==0.0.36
@@ -25,3 +25,4 @@ datasets==3.6.0
 huggingface-hub==0.24.0
 regex==2023.12.25
 python-dotenv==1.0.1
+
