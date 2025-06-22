@@ -96,7 +96,7 @@ gdown --fuzzy "https://drive.google.com/file/d/1267rLcZ7m3s3u04_leAi2G1x4xml9FsW
 
 unzip career_vectorstore.zip -d career_vectorstore
 unzip career_model.zip -d career_model
-unzip  finetuned-flan-t5-coverletter -d finetuned-flan-t5-coverletter
+unzip  finetuned-flan-t5-coverletter.zip -d finetuned-flan-t5-coverletter
 
 ```
 
